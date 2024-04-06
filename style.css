@@ -1,0 +1,80 @@
+:root {
+    --primaryH: 278;
+    --primaryS: 80%;
+    --primaryL: 78%;
+    --primary-bg: #BDE0FE;
+    --secondaryH: 278;
+    --secondaryS: 80%;
+    --secondaryL: 78%;
+    --secondary-bg: #BDE0FE;
+    --font-family: Roboto, Helvetica, Arial, sans-serif;
+    --font-size-root: 16px;
+    --font-weight-thin: 100;
+    --font-weight-normal: 200;
+    --font-weight-bold: 400;
+    --font-weight-bolder: 700;
+    --line-height: 1.75rem;
+    --heading-margin: 1.5rem 0 1rem;
+    --border-radius: 2px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+thead {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+tr {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+th {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 900;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
