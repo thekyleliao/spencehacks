@@ -1,3 +1,4 @@
+
 document.getElementById('scroll-down').addEventListener('click', function () {
     var table = document.getElementById('table');
     table.scrollIntoView({ behavior: 'smooth' });
@@ -51,9 +52,5 @@ function cycleDialogues() {
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    var audio = document.getElementById('background-music');
-    audio.volume = 0.1; // Set the volume to 50%
-    audio.play(); // Start playing the music
-});
+
 
